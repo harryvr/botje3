@@ -4,7 +4,7 @@ const WEBHOOK_URL_PRODUCTION = 'https://elektramat.app.n8n.cloud/webhook/ab977ed
 const BOTJE_VERSION = '2.7.8';
 const MAX_FILE_SIZE = 10 * 1024 * 1024;
 const REQUEST_TIMEOUT = 120000; // 2 minuten timeout (voor SW)
-const SW_PATH = '/botje-sw.js'; // Pad naar Service Worker
+const SW_PATH = 'https://raw.githubusercontent.com/ruudpierik-bit/botje3/refs/heads/main/botje-sw.js'; // Pad naar Service Worker
 
 let chatId, userEmail, magentoCartId = '', customerLoggedIn = false;
 let debugCartIdOverride = null, currentFile = null;
