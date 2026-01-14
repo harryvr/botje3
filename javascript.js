@@ -1,3 +1,5 @@
+console.log("Harry's script downloaden");
+
 const WEBHOOK_URL_PRODUCTION = 'https://elektramat.app.n8n.cloud/webhook/ab977eda-36b8-46f7-a377-e90418ff166d';
 const BOTJE_VERSION = '2.7.8';
 const MAX_FILE_SIZE = 10 * 1024 * 1024;
@@ -1687,3 +1689,5 @@ function refreshCartId() {
         alert('ℹ️ Geen wijzigingen gevonden');
     }
 }
+
+console.log("Harry's script gedownload");
