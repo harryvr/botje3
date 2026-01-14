@@ -1,4 +1,4 @@
-console.log("Harry's script downloaden");
+console.log("Harry's aangepaste script (todo: deze regel verwijderen)");
 
 const WEBHOOK_URL_PRODUCTION = 'https://elektramat.app.n8n.cloud/webhook/ab977eda-36b8-46f7-a377-e90418ff166d';
 const BOTJE_VERSION = '2.7.8';
@@ -1689,5 +1689,3 @@ function refreshCartId() {
         alert('ℹ️ Geen wijzigingen gevonden');
     }
 }
-
-console.log("Harry's script gedownload");
